@@ -1,0 +1,11 @@
+body {
+    background-color: #CCC;
+}
+#main-logo{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    background: transparent url("../images/main-logo.png") no-repeat center center;
+    width: 100px;
+    height: 100px;
+}
