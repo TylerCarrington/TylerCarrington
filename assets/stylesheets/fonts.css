@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot');
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-ExtraBold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ultraregular';
+    src: url('../fonts/Ultra-webfont.eot');
+    src: url('../fonts/Ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ultra-webfont.woff') format('woff'),
+         url('../fonts/Ultra-webfont.ttf') format('truetype'),
+         url('../fonts/Ultra-webfont.svg#ultraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'quigleywigglyregular';
+    src: url('../fonts/QUIGLEYW-webfont.eot');
+    src: url('../fonts/QUIGLEYW-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/QUIGLEYW-webfont.woff') format('woff'),
+         url('../fonts/QUIGLEYW-webfont.ttf') format('truetype'),
+         url('../fonts/QUIGLEYW-webfont.svg#quigleywigglyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'seasideresortnfregular';
+    src: url('../fonts/SEASRN__-webfont.eot');
+    src: url('../fonts/SEASRN__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SEASRN__-webfont.woff') format('woff'),
+         url('../fonts/SEASRN__-webfont.ttf') format('truetype'),
+         url('../fonts/SEASRN__-webfont.svg#seasideresortnfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
