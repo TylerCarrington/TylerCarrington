@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:700);
+$circle-diameter: 60px;
+$primary-color: #f60;
+$secondary-color: #323940;
+$accent-color: #fff5ee;
+$padding: 10px;
+$header-font-size: 25px;
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+          box-sizing: $box-model;
+}
+
+@mixin bi-name($image-name){
+    background-image: url("/assets/images/#{$image-name}");
+}
