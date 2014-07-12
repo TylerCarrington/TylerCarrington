@@ -199,6 +199,24 @@ section {
             }
         }
 
+        > ul {
+            list-style-type: none;
+
+            a {
+                color: $secondary-color;
+                text-decoration: none;
+                vertical-align: 5px;
+                &:hover {
+                    text-decoration: underline;
+                    color: $secondary-light;
+                }
+            }
+
+            h3 {
+                margin-left: 10px;
+            }
+        }
+
         #semantic {
             background-image: url('/assets/images/html5_semantics.svg');
         }
@@ -228,4 +246,16 @@ section {
             color: $secondary-light;
         }
     }
+}
+
+.codepen-sign {
+    background-image: url("http://blog.codepen.io/wp-content/uploads/2014/03/codepen-logo.svg");
+    background-size: contain;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.icon-2 {
+    font-size: 2em;
 }
