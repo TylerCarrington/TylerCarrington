@@ -7,7 +7,7 @@
         <title>TylerCarrington</title>
 
         <link href="assets/stylesheets/application.css" media="screen" rel="stylesheet">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="icon" type="image/png" href="/assets/images/main-logo.png" />
     </head>
     <body>
@@ -37,25 +37,73 @@
                 </div>
                 <article>
                     <h2>About Me</h2>
-                    <p>My passion is software development and web design. I work for a fortune 100 company and graduated from Gonzaga.If you would like to learn more about me, you can view my LinkedIn or contact me directly</p>
+                    <p>I'm a developer by day and a web designer by night.
+                        I believe in the beauty of the web, <a href="#work">inside and out</a>.
+                        I graduated from Gonzaga (go <a href="http://www.gozags.com/">Bulldogs</a>!) and currently work for Liberty Mutual as a Software Developer.</p>
+                    <p>As a designer I use:</p>
+                    <ul class="list">
+                        <li><a href="http://www.w3schools.com/css/css3_intro.asp">CSS3</a></li>
+                        <li><a href="http://sass-lang.com/">Sass</a></li>
+                        <li><a href="http://www.photoshop.com/">Adobe Photoshop</a></li>
+                    </ul>
+                    <p>As a developer I use:</p>
+                    <ul class="list">
+                        <li>MVC: <a href="http://rubyonrails.org/">Ruby on Rails</a>,
+                            <a href="http://msdn.microsoft.com/en-us/vstudio/hh341490.aspx">C#</a>,
+                            <a href="http://spring.io/">Spring</a></li>
+                        <li>General: <a href="http://en.wikipedia.org/wiki/C_%28programming_language%29">C</a>/
+                            <a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a>, 
+                            <a href="http://en.wikipedia.org/wiki/Java_%28programming_language%29">Java</a>, 
+                            <a href="http://en.wikipedia.org/wiki/Visual_Basic_for_Applications">VBA</a></li>
+                        <li>Dynamic: <a href="http://en.wikipedia.org/wiki/JavaScript">JavaScript</a>, <a href="http://jquery.com/">jQuery</a></li>
+                        <li>Markup: <a href="http://www.w3.org/TR/html5/">HTML5</a>,
+                            <a href="http://www.w3schools.com/xml/xml_whatis.asp">XML</a></li>
+                        <li>Other: <a href="http://en.wikipedia.org/wiki/SQL">SQL</a>, 
+                            <a href="http://www.haskell.org/haskellwiki/Haskell">Haskell</a>, 
+                            <a href="http://en.wikipedia.org/wiki/BASIC">BASIC</a></li>
+                    </ul>
+                    <p>If you would like to learn more about me or just say hi, feel free to <a href="#contact">contact me</a>.</p>
                 </article>
-                <a href="#" class="exit icon-remove-sign"></a>
+                <a href="#" class="exit fa fa-times-circle"></a>
             </section>
             <section id="work">
                 <div>
-                    <a href="#copyright">1.</a>
                 </div>
                 <article>
                     <h2>Beautiful: Inside and Out</h2>
+                    <p>This website was built using the latest in HTML5 technologies and kept lightweight without javascript.
+                       If you would like to find out more about this site you can visit the 
+                        <a href="https://github.com/TylerCarrington/tylercarrington.github.io">GitHub</a>
+                        repository where it is stored or <a href="#contact">contact me</a>.
+                    </p>
                     <header>
-                        <i id="semantic"></i><h3>Semantic Markup</h3>
+                        <i id="semantic"></i><h3><a href="http://www.w3schools.com/html/html5_semantic_elements.asp">Semantic Markup</a></h3>
                     </header>
-                   
+                    <p>The point of semantic markup is to make the interals of a site less unsightly.
+                    Without looking at the rendered page, sematics make it easy to figure out what the HTML is doing.
+                    These semantic markups pair well with the existing <code>&lt;h1&gt; &lt;h2&gt;...</code> tags to provide and outline of
+                    the page along with level of importance. For example, you are in an <code>&lt;article&gt;</code> right now!</p>
                     <header>
-                        <i id="css3"></i><h3>CSS3</h3>
+                        <i id="css3"></i><h3><a href="http://www.w3schools.com/css/css3_intro.asp">CSS3</a></h3>
                     </header>
+                    <p>This site was made possible with new CSS3 specifications. Here a couple just to name a few:
+                    </p>
+                    <ul class="list">
+                            <li><code>:target</code> selectors were used to move from one peice of content to then next without leaving the page.</li>
+                            <li>Transitions provided the user with an overall smoother experience on the site.</li>
+                            <li><code>background-size</code> ensured that the images fit appropriately no matter the screen size or orientation.</li>
+                    </ul>
+                    <header>
+                        <i id="sass"></i><h3><a href="http://sass-lang.com/">Sass</a></h3>
+                    </header>
+                    <p>Sass isn't part of HTML5 but it should be.
+                        It is a css extension that provides developers and designers alike the power of reusable code inside to generate normal css stylesheets.
+                    </p>
+                    <header><h3>Additional Information</h3></header>
+                    <p>This site would not be possible without the help of a fantastic set reuseable material.
+                        Find out more about the material referenced <a href="#copyright">here</a>.</p>
                 </article>
-                <a href="#" class="exit icon-remove-sign"></a>
+                <a href="#" class="exit fa fa-times-circle"></a>
             </section>
             <section id="contact">
                 <div>
@@ -65,31 +113,33 @@
                     <h2>Getting Ahold of Me</h2>
                     <ul>
                         <li>
-                            <i class="icon-github-sign icon-2"></i> <h3><a href="https://github.com/TylerCarrington">GitHub Home Repository</a></h3>
+                            <i class="fa fa-github-square icon-2"></i> <h3><a href="https://github.com/TylerCarrington">GitHub Home Repository</a></h3>
                         </li>
                         <li>
-                            <i class="icon-linkedin-sign icon-2"></i> <h3><a href="www.linkedin.com/pub/tyler-carrington/76/40a/63/">LinkedIn Profile</a></h3>
+                            <i class="fa fa-linkedin-square icon-2"></i> <h3><a href="http://www.linkedin.com/pub/tyler-carrington/76/40a/63/">LinkedIn Profile</a></h3>
                         </li>
                         <li>
                             <i class="codepen-sign"></i> <h3><a href="http://codepen.io/TylerCarrington/">CodePen Profile</a></h3>
                         </li>
                         <li>
-                            <i class="icon-envelope icon-2"></i> <h3><a href="mailto:mail@tylercarrington.com">Email: mail@TylerCarrington.com</a></h3>
+                            <i class="fa fa-envelope-square icon-2"></i> <h3><a href="mailto:mail@tylercarrington.com">Email: mail@TylerCarrington.com</a></h3>
                         </li>
                     </ul>
                 </article>
-                <a href="#" class="exit icon-remove-sign"></a>
+                <a href="#" class="exit fa fa-times-circle"></a>
             </section>
             <section id="copyright">
                 <article>
                     <h2>Material Referenced</h2>
                     <ol>
-                        <li>HTML5 Logos by <a href="http://www.w3.org/html/logo/">W3C</a> (<a href="http://creativecommons.org/licenses/by/3.0/">CC</a>)</li>
-                        <li>Phone Booth by <a href="https://www.flickr.com/photos/krystiano/">Krystian Olszanski</a> (<a href="https://creativecommons.org/licenses/by/2.0/">CC</a>)</li>
-                        <li>Hammering Man by <a href="https://www.flickr.com/photos/posk/">Art Poskanzer</a> (<a href="https://creativecommons.org/licenses/by/2.0/">CC</a>)</li>
+                        <li>HTML5 Logos by <a href="http://www.w3.org/html/logo/">W3C</a> (<a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</li>
+                        <li>Phone Booth (Photo) by <a href="https://www.flickr.com/photos/krystiano/">Krystian Olszanski</a> (<a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>)</li>
+                        <li>Hammering Man (Photo) by <a href="https://www.flickr.com/photos/posk/">Art Poskanzer</a> (<a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>)</li>
+                        <li>Sass Logo by <a href="http://sass-lang.com/">Sass</a> (<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">CC BY-NC-SA 3.0</a>)</li>
+                        <li><a href="http://fontawesome.io">Font Awesome</a> by <a href="https://twitter.com/davegandy">Dave Gandy</a> (<a href="http://opensource.org/licenses/mit-license.html">MIT</a>)</li>
                     </ol>
                 </article>
-                <a href="#" class="exit icon-remove-sign"></a>
+                <a href="#" class="exit fa fa-times-circle"></a>
             </section>
         </main>
 
