@@ -61,7 +61,7 @@ main {
     position: relative;
     display: inline-block;
     height: calc(100% - 80px);
-    width: calc(100%/3);
+    width: calc(99.999%/3);
     margin: 0;
     float: left; }
     main > figure > a {
